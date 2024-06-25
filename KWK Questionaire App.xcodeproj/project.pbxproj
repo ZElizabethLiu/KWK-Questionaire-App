@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12B3DCCD2C29C51500098900 /* KWK_Questionaire_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DCCC2C29C51500098900 /* KWK_Questionaire_AppApp.swift */; };
+		12B3DCCF2C29C51500098900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DCCE2C29C51500098900 /* ContentView.swift */; };
+		12B3DCD12C29C51500098900 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DCD02C29C51500098900 /* Item.swift */; };
+		12B3DCD32C29C51700098900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B3DCD22C29C51700098900 /* Assets.xcassets */; };
+		12B3DCD72C29C51700098900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12B3DCD62C29C51700098900 /* Preview Assets.xcassets */; };
+		12B3DCE12C29C51700098900 /* KWK_Questionaire_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DCE02C29C51700098900 /* KWK_Questionaire_AppTests.swift */; };
+		12B3DCEB2C29C51700098900 /* KWK_Questionaire_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DCEA2C29C51700098900 /* KWK_Questionaire_AppUITests.swift */; };
+		12B3DCED2C29C51700098900 /* KWK_Questionaire_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DCEC2C29C51700098900 /* KWK_Questionaire_AppUITestsLaunchTests.swift */; };
+		12B3DCFA2C29F05200098900 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B3DCF92C29F05200098900 /* SecondView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12B3DCDD2C29C51700098900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B3DCC12C29C51500098900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B3DCC82C29C51500098900;
+			remoteInfo = "KWK Questionaire App";
+		};
+		12B3DCE72C29C51700098900 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12B3DCC12C29C51500098900 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12B3DCC82C29C51500098900;
+			remoteInfo = "KWK Questionaire App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B3DCC92C29C51500098900 /* KWK Questionaire App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KWK Questionaire App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B3DCCC2C29C51500098900 /* KWK_Questionaire_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Questionaire_AppApp.swift; sourceTree = "<group>"; };
+		12B3DCCE2C29C51500098900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		12B3DCD02C29C51500098900 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		12B3DCD22C29C51700098900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12B3DCD42C29C51700098900 /* KWK_Questionaire_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KWK_Questionaire_App.entitlements; sourceTree = "<group>"; };
+		12B3DCD62C29C51700098900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		12B3DCDC2C29C51700098900 /* KWK Questionaire AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK Questionaire AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B3DCE02C29C51700098900 /* KWK_Questionaire_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Questionaire_AppTests.swift; sourceTree = "<group>"; };
+		12B3DCE62C29C51700098900 /* KWK Questionaire AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KWK Questionaire AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B3DCEA2C29C51700098900 /* KWK_Questionaire_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Questionaire_AppUITests.swift; sourceTree = "<group>"; };
+		12B3DCEC2C29C51700098900 /* KWK_Questionaire_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWK_Questionaire_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12B3DCF92C29F05200098900 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12B3DCC62C29C51500098900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B3DCD92C29C51700098900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B3DCE32C29C51700098900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12B3DCC02C29C51500098900 = {
+			isa = PBXGroup;
+			children = (
+				12B3DCCB2C29C51500098900 /* KWK Questionaire App */,
+				12B3DCDF2C29C51700098900 /* KWK Questionaire AppTests */,
+				12B3DCE92C29C51700098900 /* KWK Questionaire AppUITests */,
+				12B3DCCA2C29C51500098900 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12B3DCCA2C29C51500098900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DCC92C29C51500098900 /* KWK Questionaire App.app */,
+				12B3DCDC2C29C51700098900 /* KWK Questionaire AppTests.xctest */,
+				12B3DCE62C29C51700098900 /* KWK Questionaire AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12B3DCCB2C29C51500098900 /* KWK Questionaire App */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DCCC2C29C51500098900 /* KWK_Questionaire_AppApp.swift */,
+				12B3DCCE2C29C51500098900 /* ContentView.swift */,
+				12B3DCF92C29F05200098900 /* SecondView.swift */,
+				12B3DCD02C29C51500098900 /* Item.swift */,
+				12B3DCD22C29C51700098900 /* Assets.xcassets */,
+				12B3DCD42C29C51700098900 /* KWK_Questionaire_App.entitlements */,
+				12B3DCD52C29C51700098900 /* Preview Content */,
+			);
+			path = "KWK Questionaire App";
+			sourceTree = "<group>";
+		};
+		12B3DCD52C29C51700098900 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DCD62C29C51700098900 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		12B3DCDF2C29C51700098900 /* KWK Questionaire AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DCE02C29C51700098900 /* KWK_Questionaire_AppTests.swift */,
+			);
+			path = "KWK Questionaire AppTests";
+			sourceTree = "<group>";
+		};
+		12B3DCE92C29C51700098900 /* KWK Questionaire AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12B3DCEA2C29C51700098900 /* KWK_Questionaire_AppUITests.swift */,
+				12B3DCEC2C29C51700098900 /* KWK_Questionaire_AppUITestsLaunchTests.swift */,
+			);
+			path = "KWK Questionaire AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12B3DCC82C29C51500098900 /* KWK Questionaire App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B3DCF02C29C51700098900 /* Build configuration list for PBXNativeTarget "KWK Questionaire App" */;
+			buildPhases = (
+				12B3DCC52C29C51500098900 /* Sources */,
+				12B3DCC62C29C51500098900 /* Frameworks */,
+				12B3DCC72C29C51500098900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KWK Questionaire App";
+			productName = "KWK Questionaire App";
+			productReference = 12B3DCC92C29C51500098900 /* KWK Questionaire App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12B3DCDB2C29C51700098900 /* KWK Questionaire AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B3DCF32C29C51700098900 /* Build configuration list for PBXNativeTarget "KWK Questionaire AppTests" */;
+			buildPhases = (
+				12B3DCD82C29C51700098900 /* Sources */,
+				12B3DCD92C29C51700098900 /* Frameworks */,
+				12B3DCDA2C29C51700098900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B3DCDE2C29C51700098900 /* PBXTargetDependency */,
+			);
+			name = "KWK Questionaire AppTests";
+			productName = "KWK Questionaire AppTests";
+			productReference = 12B3DCDC2C29C51700098900 /* KWK Questionaire AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12B3DCE52C29C51700098900 /* KWK Questionaire AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12B3DCF62C29C51700098900 /* Build configuration list for PBXNativeTarget "KWK Questionaire AppUITests" */;
+			buildPhases = (
+				12B3DCE22C29C51700098900 /* Sources */,
+				12B3DCE32C29C51700098900 /* Frameworks */,
+				12B3DCE42C29C51700098900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12B3DCE82C29C51700098900 /* PBXTargetDependency */,
+			);
+			name = "KWK Questionaire AppUITests";
+			productName = "KWK Questionaire AppUITests";
+			productReference = 12B3DCE62C29C51700098900 /* KWK Questionaire AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12B3DCC12C29C51500098900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					12B3DCC82C29C51500098900 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					12B3DCDB2C29C51700098900 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 12B3DCC82C29C51500098900;
+					};
+					12B3DCE52C29C51700098900 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 12B3DCC82C29C51500098900;
+					};
+				};
+			};
+			buildConfigurationList = 12B3DCC42C29C51500098900 /* Build configuration list for PBXProject "KWK Questionaire App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12B3DCC02C29C51500098900;
+			productRefGroup = 12B3DCCA2C29C51500098900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12B3DCC82C29C51500098900 /* KWK Questionaire App */,
+				12B3DCDB2C29C51700098900 /* KWK Questionaire AppTests */,
+				12B3DCE52C29C51700098900 /* KWK Questionaire AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12B3DCC72C29C51500098900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B3DCD72C29C51700098900 /* Preview Assets.xcassets in Resources */,
+				12B3DCD32C29C51700098900 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B3DCDA2C29C51700098900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B3DCE42C29C51700098900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12B3DCC52C29C51500098900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B3DCCF2C29C51500098900 /* ContentView.swift in Sources */,
+				12B3DCD12C29C51500098900 /* Item.swift in Sources */,
+				12B3DCFA2C29F05200098900 /* SecondView.swift in Sources */,
+				12B3DCCD2C29C51500098900 /* KWK_Questionaire_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B3DCD82C29C51700098900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B3DCE12C29C51700098900 /* KWK_Questionaire_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12B3DCE22C29C51700098900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B3DCEB2C29C51700098900 /* KWK_Questionaire_AppUITests.swift in Sources */,
+				12B3DCED2C29C51700098900 /* KWK_Questionaire_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12B3DCDE2C29C51700098900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12B3DCC82C29C51500098900 /* KWK Questionaire App */;
+			targetProxy = 12B3DCDD2C29C51700098900 /* PBXContainerItemProxy */;
+		};
+		12B3DCE82C29C51700098900 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12B3DCC82C29C51500098900 /* KWK Questionaire App */;
+			targetProxy = 12B3DCE72C29C51700098900 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12B3DCEE2C29C51700098900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12B3DCEF2C29C51700098900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		12B3DCF12C29C51700098900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KWK Questionaire App/KWK_Questionaire_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KWK Questionaire App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.KWK-Questionaire-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12B3DCF22C29C51700098900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "KWK Questionaire App/KWK_Questionaire_App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KWK Questionaire App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.KWK-Questionaire-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12B3DCF42C29C51700098900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.KWK-Questionaire-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWK Questionaire App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KWK Questionaire App";
+			};
+			name = Debug;
+		};
+		12B3DCF52C29C51700098900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.KWK-Questionaire-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KWK Questionaire App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KWK Questionaire App";
+			};
+			name = Release;
+		};
+		12B3DCF72C29C51700098900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.KWK-Questionaire-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KWK Questionaire App";
+			};
+			name = Debug;
+		};
+		12B3DCF82C29C51700098900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.KWK-Questionaire-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KWK Questionaire App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12B3DCC42C29C51500098900 /* Build configuration list for PBXProject "KWK Questionaire App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B3DCEE2C29C51700098900 /* Debug */,
+				12B3DCEF2C29C51700098900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B3DCF02C29C51700098900 /* Build configuration list for PBXNativeTarget "KWK Questionaire App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B3DCF12C29C51700098900 /* Debug */,
+				12B3DCF22C29C51700098900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B3DCF32C29C51700098900 /* Build configuration list for PBXNativeTarget "KWK Questionaire AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B3DCF42C29C51700098900 /* Debug */,
+				12B3DCF52C29C51700098900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12B3DCF62C29C51700098900 /* Build configuration list for PBXNativeTarget "KWK Questionaire AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12B3DCF72C29C51700098900 /* Debug */,
+				12B3DCF82C29C51700098900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12B3DCC12C29C51500098900 /* Project object */;
+}
